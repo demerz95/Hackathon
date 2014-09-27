@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Liberty Bus | Where is my bus</title>
+   <link rel="stylesheet" href="file:///Users/nicolle/Desktop/Hackathon/bus-css.css" type="text/css" media="screen">
+      <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ulrnoJmqEp71o6babfYEETn82k8J-Xc">
+      </script>
+      <script type="text/javascript">
+
+        function initialize() {
+          var myLatlng = new google.maps.LatLng(49.1868220,-2.1065680);
+          var mapOptions = {
+            zoom: 13,
+            center: myLatlng
+          }
+          var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+          var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: 'Hello World!'
+          });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+  </script>
+  <style type="text/css">
+        html, body { height: 100%; margin: 0; padding: 0;}
+		
+		
+      </style>
+	   
+      
+  </head>
+  <body>
+    <header>
+		<img src="file:///Users/nicolle/Desktop/Hackathon/imageedit_1_5807826936.gif" alt="logo" id="logoimage" width="100"> 
+        <a href="file:///Users/nicolle/Desktop/Hackathon/bus-homepage.html" id="logo"> 
+          <h1>Liberty Bus</h1>
+      </a>§
+
+    </header> 
+	 <div id="map-canvas"></div>
+    <section>
+		<div class="Description-text">
+		  <h2 inline>This is a website created for and by bus users. Many people catch the bus each day and have the worry of whether they have missed the bus or not. This website is here to take this stress away. In real time you can see exactly where your bus is at any one time this also alows you to see exactly how far the bus is away from your house so no more standing at the side of the road for lenglthly periods of time.</h2> 
+		</div>
+   
+	</section>
+	<section>
+<div class"instructions" id="where" style="width: 100% ; Display: none">
+	<h3><span id= "button1"> Where Is My Bus ? </span></h3>
+</div>
+</section>
+    <footer>
+      
+  
+        <p>&copy; Hackathon.</p>
+		<div class="disclaimer">
+		<p><small>~Disclaimer~ Our company accepts no liability for the content of this website, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing.~Disclaimer~</small></p>
+    </footer>
+  </body>
+</html>
