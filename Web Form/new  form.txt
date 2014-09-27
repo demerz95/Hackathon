@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Promessa | Blog Page</title>
+
+	</head>
+	<body>
+		<h1>This is a level 1 headline tag</h1>
+		<h2>This is a level 1 headline tag</h2>
+		<h3>This is a level 1 headline tag</h3>
+		<h4>This is a level 1 headline tag</h4>
+		<h5>This is a level 1 headline tag</h5>
+		<h6>This is a level 1 headline tag</h6>
+		<div>This is a <span>div.</span></div>
+		<span>This is a Span.</span>
+		<p><em>This is a paragraph</em></p>
+		<hr>
+		<p><strong>This is a paragraph</strong></p>
+		<p>This is a paragraph</p>
+		<blockquote cite="http://example.com/story.html">
+			<p>this is a paragraph that is inside of a blockquote</p>
+		</blockquote>
+		<p>this is a paragraph with a <q cite="http://example.com/story.html">quote inside it</q></p>
+		<p>This is a paragraph used to reresent <code>code as text</code></p>
+		<pre>
+			here is some text 
+
+			it is...
+							preformatted
+		</pre>
+		<pre><code>
+			If (!foo) {
+			then br = 6
+		}
+		</code></pre>
+		<p>this is the first line of our poem<br>
+			this is the second line of our poem.
+		</p>
+		<p>I know how write a <abbr title="a line of text used to explain or show somthing through text">paragrah</abbr></p>
+		<address>
+			Demri Mitchell<br>
+			Homelands<br>
+			Le chemin des peitons<br>
+			St Brelade<br>
+			Jersey
+		</address>
+		<p>my favorite line is<cite>this is a paragraph.</cite></p>
+		<p>think<wbr>vitamin.com</p>
+		<div>
+			<ol>
+				<li>1st item</li>
+				<li>2nd item</li>
+				<ul>
+					<li>1st item</li>
+					<ul></ul>
+						<li>2nd item</li>
+						<li>3rd item</li>
+					</ul>					
+					<li>4th item</li>
+				</ul>
+				<li>3rd item</li>
+				<li>4th item</li>
+			</ol>
+			<ul>
+				<li>1st item</li>
+				<li>2nd item</li>
+				<li>3rd item</li>
+				<li>4th item</li>
+			</ul>
+		</div>
+		<div>
+			<dl>
+				<dt>Video Pros</dt>
+				<dd>Jon</dd>
+				<dd>Micheal</dd>
+				<dt>Techers</dt>
+				<dd>Nick</dd>
+				<dd>Jim</dd>
+				<dd>Amit</dd>
+			</dl>
+			<dl>
+				<dt lang="en-US">color</dt>
+				<dt lang="en-UK">colour</dt>
+			</dl>
+		</div>
+		<a href="#some-text" id="my-link">My link</a>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p id="some-text">the anchor takes us here</p>
+
+		<a href="#my-link">Go Back</a>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+</html>
